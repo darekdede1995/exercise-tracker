@@ -1,0 +1,35 @@
+.new-exercise-container input {
+  max-width: 6em;
+  height: 2em;
+}
+
+.new-exercise-container button {
+  height: 2em;
+  min-width: 5em;
+}
+
+button {
+  min-width: 10em;
+}
+
+.date button {
+  height: 2em;
+  min-width: 8em;
+}
+
+.date input {
+  height: 2em;
+}
+
+.exercise-header {
+  color: green;
+}
+
+.mobile {
+  font-size: small;
+}
+
+.mobile button {
+  min-width: 5em;
+}
+/*# sourceMappingURL=newTrainingPage.css.map */

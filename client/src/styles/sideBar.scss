@@ -1,0 +1,33 @@
+.nav-link {
+    background-color: white;
+    color: black;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+.selected-link {
+    color: green;
+
+    &:hover {
+        color: green;
+    }
+}
+
+.username-link {
+    color: gray;
+
+    &:hover {
+        color: gray;
+    }
+}
+
+img {
+    width: 10em;
+}
+
+.mobile{
+    font-size: small;
+  }

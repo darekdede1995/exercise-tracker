@@ -1,0 +1,23 @@
+.exercise-list-header{
+    color: green;
+}
+
+.training-list-header{
+    border-bottom: 2px solid black;
+}
+
+.training-container{
+    background-image: radial-gradient(at 50% bottom, rgb(235, 235, 235), white 60%);
+}
+
+.exercise-row:hover{
+    background-color: lightgray;
+}
+
+.btn-mobile{
+    min-width: 5vw !important;
+}
+
+.mobile{
+    font-size: small;
+  }

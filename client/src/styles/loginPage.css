@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+.h1-title {
+  font-size: 5em;
+}
+
+.title-container {
+  min-height: 15em;
+}
+
+.button-group-container {
+  min-height: 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.button-group-container .btn {
+  min-width: 10em;
+}
+
+.invalid-field {
+  border-color: lightcoral;
+}
+
+.error-message {
+  color: lightcoral;
+  font-size: 0.9em;
+  font-family: 'Roboto Mono';
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=loginPage.css.map */

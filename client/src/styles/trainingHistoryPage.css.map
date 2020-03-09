@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAA;EACjB,KAAK,EAAE,KAAK;CACf;;AAED,AAAA,qBAAqB,CAAA;EACjB,aAAa,EAAE,eAAe;CACjC;;AAED,AAAA,mBAAmB,CAAA;EACf,gBAAgB,EAAE,kDAA6D;CAClF;;AAED,AAAA,aAAa,AAAA,MAAM,CAAA;EACf,gBAAgB,EAAE,SAAS;CAC9B;;AAED,AAAA,WAAW,CAAA;EACP,SAAS,EAAE,cAAc;CAC5B;;AAED,AAAA,OAAO,CAAA;EACH,SAAS,EAAE,KAAK;CACjB",
+    "sources": [
+        "trainingHistoryPage.scss"
+    ],
+    "names": [],
+    "file": "trainingHistoryPage.css"
+}

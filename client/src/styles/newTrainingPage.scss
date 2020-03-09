@@ -1,0 +1,39 @@
+
+.new-exercise-container {
+    input {
+        max-width: 6em;
+        height: 2em;
+    }
+
+    button {
+        height: 2em;
+        min-width: 5em;
+    }
+}
+
+button {
+    min-width: 10em;
+}
+
+
+.date{
+    button {
+        height: 2em;
+        min-width: 8em;
+    }
+    input{
+        height: 2em;
+    }
+
+}
+
+.exercise-header{
+    color: green;
+}
+
+.mobile{
+    font-size: small;
+    button{
+        min-width: 5em;
+    }
+  }

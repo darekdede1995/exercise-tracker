@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap");
+.h1-title {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.h1-title-mobile {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.required-class {
+  border-width: 3px !important;
+}
+
+.exercise-container {
+  word-wrap: break-word;
+}
+
+.exercise-container .btn {
+  min-width: 0;
+}
+
+.mobile {
+  font-size: small;
+}
+/*# sourceMappingURL=newExercisePage.css.map */

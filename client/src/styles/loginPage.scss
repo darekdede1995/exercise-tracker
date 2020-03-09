@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+.h1-title{
+    font-size: 5em;
+}
+
+.title-container{
+    min-height: 15em;
+}
+
+.button-group-container{
+    .btn{
+        min-width: 10em;
+    }
+    min-height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.invalid-field{
+    border-color: lightcoral;
+}
+.error-message{
+    color: lightcoral;
+    font-size: 0.9em;
+    font-family: 'Roboto Mono';
+    text-transform: uppercase;
+
+}
+
