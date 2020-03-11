@@ -23,13 +23,13 @@ function NewTrainingExercise(props) {
             <div className="new-exercise-container d-lg-none row mobile">
                 <div className="col-12 my-1 pb-2 d-flex justify-content-between exercise-container exercise-list-header">
                     <label className="col-4 p-0 vertically-middle">name</label>
-                    <label className="col-4 p-0 vertically-middle">description</label>
-                    <label className="col-4 p-0 vertically-middle">group</label>
+                    <label className="col-4 p-0 vertically-middle" hidden={exercise.description === ''}>description</label>
+                    <label className="col-4 p-0 vertically-middle" hidden={!exercise.group.posses}>group</label>
                 </div>
                 <div className="col-12 my-1 pb-3 d-flex justify-content-between">
                     <label className="col-4 p-0 vertically-middle">{exercise.name}</label>
-                    <label className="col-4 p-0 vertically-middle">{exercise.name}</label>
-                    <label className="col-4 p-0 vertically-middle">{exercise.name}</label>
+                    <label className="col-4 p-0 vertically-middle">{exercise.description}</label>
+                    <label className="col-4 p-0 vertically-middle">{exercise.group.name}</label>
                 </div>
                 <div className="col-12 my-1 pb-2 exercise-container exercise-list-header">
                     <label className="vertically-middle col-3 p-1">repetition</label>
@@ -39,16 +39,16 @@ function NewTrainingExercise(props) {
                 </div>
                 <div className="col-12 my-1 pb-3 d-flex justify-content-between">
                     <div className="col-3 p-1">
-                        <input className="form-control" type="text" value={exerciseRepetition} onChange={onRepetitionChange} />
+                        <input className="form-control" type="text" hidden={!exercise.repetition.posses} value={exerciseRepetition} onChange={onRepetitionChange} />
                     </div>
                     <div className="col-3 p-1">
-                        <input className="form-control" type="text" value={exerciseWeight} onChange={onWeightChange} />
+                        <input className="form-control" type="text" hidden={!exercise.weight.posses} value={exerciseWeight} onChange={onWeightChange} />
                     </div>
                     <div className="col-3 p-1">
-                        <input className="form-control" type="text" value={exerciseDistance} onChange={onDistanceChange} />
+                        <input className="form-control" type="text" hidden={!exercise.distance.posses} value={exerciseDistance} onChange={onDistanceChange} />
                     </div>
                     <div className="col-3 p-1">
-                        <input className="form-control" type="text" value={exerciseDuration} onChange={onDurationChange} />
+                        <input className="form-control" type="text" hidden={!exercise.duration.posses} value={exerciseDuration} onChange={onDurationChange} />
                     </div>
                 </div>
                 <div className="col-12 my-3 text-center">

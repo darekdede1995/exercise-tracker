@@ -51,17 +51,17 @@ function ExerciseList() {
                   disabled={true}
                 /><Checkbox
                   className="col-3 p-0"
-                  checked={exercise.repetition.posses}
+                  checked={exercise.weight.posses}
                   color="default"
                   disabled={true}
                 /><Checkbox
                   className="col-3 p-0"
-                  checked={exercise.repetition.posses}
+                  checked={exercise.distance.posses}
                   color="default"
                   disabled={true}
                 /><Checkbox
                   className="col-3 p-0"
-                  checked={exercise.repetition.posses}
+                  checked={exercise.duration.posses}
                   color="default"
                   disabled={true}
                 />
