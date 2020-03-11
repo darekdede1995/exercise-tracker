@@ -34,8 +34,8 @@ function ExerciseList() {
               </div>
               <div className="col-12 my-3 pb-3 d-flex justify-content-between">
                 <label className="col-4 p-0 vertically-middle">{exercise.name}</label>
-                <label className="col-5 p-0 vertically-middle">{exercise.name}</label>
-                <label className="col-3 p-0 vertically-middle">{exercise.name}</label>
+                <label className="col-5 p-0 vertically-middle">{exercise.description}</label>
+                <label className="col-3 p-0 vertically-middle">{exercise.group.name}</label>
               </div>
               <div className="col-12 my-1 pb-3  exercise-container exercise-list-header text-center">
                 <label className="col-3 p-0 vertically-middle">repetition</label>
