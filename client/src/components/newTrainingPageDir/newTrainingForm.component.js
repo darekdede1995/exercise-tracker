@@ -119,7 +119,7 @@ function NewTrainingForm() {
 		if (differentDate && useDifferentDate) {
 			updatedTraining.date = differentDate;
 		} else {
-			updatedTraining.date = trainingDate;
+			updatedTraining.date = new Date();
 		}
 
 		dispatch(updateTraining(updatedTraining));
