@@ -23,7 +23,6 @@ function NavBar() {
 
   // useEffect(() => {
   //   if (!user) {
-  //     console.log('nie ma kurwa usera');
   //     verify();
   //   }
   //   // eslint-disable-next-line
@@ -126,7 +125,7 @@ function NavBar() {
 
   function logout() {
 
-    clearStorage();
+    clearStorage('exercise-tracker');
 
     if (localStorage) {
       if (localStorage.userSession) {

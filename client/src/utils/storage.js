@@ -1,34 +1,34 @@
-export function getFromStorage(key){
-    if(!key){
+export function getFromStorage(key) {
+    if (!key) {
         return null;
     }
 
-    try{
+    try {
         const value = localStorage.getItem(key);
-        if(value){
+        if (value) {
             return JSON.parse(value);
         }
         return null;
-    }catch(err){
+    } catch (err) {
         return null;
     }
 }
 
-export function setInStorage(key, obj){
-    if(!key){
+export function setInStorage(key, obj) {
+    if (!key) {
         console.error('Error: Key is missing');
     }
-    try{
+    try {
         localStorage.setItem(key, JSON.stringify(obj));
-    }catch(err){
+    } catch (err) {
         console.log(err);
     }
 }
 
-export function clearStorage(){
-    try{
-        localStorage.clear();
-    }catch(err){
+export function clearStorage(key) {
+    try {
+        localStorage.remove(key);
+    } catch (err) {
         console.log(err);
     }
 }
