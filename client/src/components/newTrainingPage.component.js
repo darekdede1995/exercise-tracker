@@ -51,10 +51,6 @@ function TrainigPage() {
   );
 
   function createNewTraining() {
-	let x = new Date();
-	x.setMinutes(x.getMinutes - x.getTimezoneOffset());
-    console.log(x);
-    // console.log(x.getTimezoneOffset());
     if (user) {
       const newTraining = {
         userid: user._id,

@@ -50,7 +50,7 @@ function Training(props) {
                         <label className='px-5'>description:  </label>
                     </div>
                     <div className="col-5 vertically-middle">
-                        <label>{date.toDateString()} - {("0" + date.getUTCHours()).slice(-2)}:{("0" + date.getUTCMinutes()).slice(-2)}</label>
+                        <label>{date.toDateString()} - {("0" + date.getHours()).slice(-2)}:{("0" + date.getMinutes()).slice(-2)}</label>
                         <br></br>
                         <label>{props.training.description}</label>
                     </div>
